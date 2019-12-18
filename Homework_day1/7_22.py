@@ -14,12 +14,11 @@ print("""
 maximum_number = int(input("Max range: "))
 
 #what is perfect number 
-
 #find all UC
  
 for numbers in range(1,maximum_number + 1): #number > 0
     perfect_number = 0
-    temp = numbers 
+    temp = numbers
     for j in range(1, numbers): #this loop until numbers - 1 then stop 
         if(temp % j == 0): #check whether the numbers is divisible
             perfect_number += j #if yes then add it to perfect_number 
